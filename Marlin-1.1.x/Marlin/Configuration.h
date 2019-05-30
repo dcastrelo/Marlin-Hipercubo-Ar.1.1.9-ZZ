@@ -344,7 +344,7 @@ Hypercube/Ar ZZ 1.1.9 Pitan BFPT toqueteado por DC
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 275
+#define HEATER_0_MAXTEMP 285
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
@@ -599,7 +599,7 @@ Hypercube/Ar ZZ 1.1.9 Pitan BFPT toqueteado por DC
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 120 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 418.5, 120 }
 
 /**
  * Default Max Feed Rate (mm/s)
